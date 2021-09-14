@@ -43,13 +43,13 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.ARI',
-      version='0.0.1',
-      description=('A docassemble extension.'),
+      version='1.0.0',
+      description=('ARI - Automated Readabilty Index '),
       long_description='# Automated Readability Index',
       long_description_content_type='text/markdown',
       author='System Administrator',
-      author_email='admin@admin.com',
-      license='The MIT License (MIT)',
+      author_email='info@legaltechhelper.com.au',
+      license='GPLV3',
       url='https://docassemble.org',
       packages=find_packages(),
       namespace_packages=['docassemble'],
