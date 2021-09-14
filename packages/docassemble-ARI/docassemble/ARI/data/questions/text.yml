@@ -191,7 +191,7 @@ script: |
     $('.btn-primary').before('<button id=\'readability_btn\' class="btn btn-da btn-secondary" style=\"margin-right: 0.5rem;\" onClick=\"readability_btn_toggle(); return false;\"><span>Readability: </span></button> ');
     $('#readability_btn').append($("#dareadability-question tbody tr td:last").html() + " &nbsp;<i class=\'fas fa-chevron-down\'></i>");
     $('#results').append($("#dareadability-question tbody tr td:last").html());
-    # Add some formatting
+    // Add some formatting
     $('#dasource').hide();
     $('form').css("min-height", "auto");
     $('#dareadability').addClass('pt-5');
