@@ -25,6 +25,11 @@ and then clone this repository
 cd /tmp
 git clone https://github.com/LegalTechHelper/ARI.git
 ```
+... or if you are pulling to get the latest changes for this repo then
+```
+cd /tmp/ARI
+git pull origin main --ff-only
+```
 
 2. Now build/ install the package:
 ```
