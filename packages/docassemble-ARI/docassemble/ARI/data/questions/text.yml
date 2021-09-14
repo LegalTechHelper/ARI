@@ -188,7 +188,7 @@ script: |
     // Remove underline from empty header (header included in readability score)
     $('.da-page-header').css("border-bottom", "none");
     // Add extra button
-    $('.btn-primary').before('<button id=\'readability_btn\' class="btn btn-da btn-secondary" style=\"margin-right: 0.5rem;\" onClick=\"readability_btn_toggle(); return false;\"><span>Readability: </span></button> ');
+    $('.btn-primary').before('<button id=\'readability_btn\' class="btn btn-da btn-warning" style=\"margin-right: 0.5rem;\" onClick=\"readability_btn_toggle(); return false;\"><span>Readability: </span></button> ');
     $('#readability_btn').append($("#dareadability-question tbody tr td:last").html() + " &nbsp;<i class=\'fas fa-chevron-down\'></i>");
     $('#results').append($("#dareadability-question tbody tr td:last").html());
     // Add some formatting
