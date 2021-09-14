@@ -1,0 +1,38 @@
+ metadata:
+  title: Automated readability index
+---
+features:
+  debug: True
+  hide navbar: False
+  progress bar: False
+  question help button: True
+  navigation back button: True
+---
+comment:
+  This block and the next set the order the questions are asked in the
+  interview.
+mandatory: True
+code: |
+  text_to_evaluate
+  show_text
+  if show_text:
+    reconsider('text_to_evaluate')
+---
+undefine: show_text
+question: |
+  Text to evaluate:
+fields:
+  - Text to evaluate: text_to_evaluate
+    input type: area
+    rows: 20
+---
+sets: show_text
+question: |
+  &nbsp;
+subquestion: |
+  ${text_to_evaluate}
+field: show_text
+buttons:
+  code: |
+    [{True:"Reset text"}]
+---
