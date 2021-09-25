@@ -1,1 +1,0 @@
-# ARI - Automated Readabilty Index
