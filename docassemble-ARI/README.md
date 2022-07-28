@@ -33,7 +33,8 @@ git pull origin main --ff-only
 2. Now build/ install the package:
 ```console
 cd /tmp/ARI
-bash build.sh
+chmod 755 build.sh
+sh build.sh
 ```
 
 The service should then be available under the following URL<br/>

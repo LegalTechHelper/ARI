@@ -1,0 +1,68 @@
+{
+  "mood": [
+    {
+      "dependent": "happy",
+      "independent": "happy"
+    },
+    {
+      "dependent": "happy",
+      "independent": "great"
+    },
+    {
+      "dependent": "sad",
+      "independent": "sick"
+    },
+    {
+      "dependent": "sad",
+      "independent": "phlegm"
+    },
+    {
+      "dependent": "sad",
+      "independent": "sad"
+    },
+    {
+      "dependent": "sad",
+      "independent": "unhappy"
+    },
+    {
+      "dependent": "sad",
+      "independent": "unhappy"
+    },
+    {
+      "dependent": "happy",
+      "independent": "great"
+    },
+    {
+      "dependent": "sad",
+      "independent": "awful"
+    },
+    {
+      "dependent": "happy",
+      "independent": "ecstatic"
+    },
+    {
+      "dependent": "happy",
+      "independent": "Great"
+    },
+    {
+      "dependent": "happy",
+      "independent": "great"
+    },
+    {
+      "dependent": "happy",
+      "independent": "great"
+    },
+    {
+      "dependent": "happy",
+      "independent": "great"
+    },
+    {
+      "dependent": "happy",
+      "independent": "I am feeling very happy"
+    },
+    {
+      "dependent": null,
+      "independent": "I feel great"
+    }
+  ]
+}
